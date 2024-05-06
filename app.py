@@ -9,10 +9,10 @@ from flask import Flask, redirect, url_for, request, render_template, session
 app = Flask(__name__)
 
 mydb = mysql.connector.connect(
-  host="aidbaz.mysql.database.azure.com",
-  user="myadmin@aidbaz",
-  password="Server@1",
-  database="aidbaz"
+  host="mysqldbserver0000.mysql.database.azure.com",
+  user="admin123",
+  password="server#123",
+  database="mysqldbserver0000"
 )
 
 mycursor = mydb.cursor()
